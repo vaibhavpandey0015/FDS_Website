@@ -14,12 +14,18 @@ body{
 
 /* header css start*/
 .header-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/banner/Banner.jpg');
-  padding: 100px 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/banner/homepage_new.jpg');
+  padding: 140px 20px 180px 20px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+@media screen and (max-width: 600px){
+    .header-img{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/banner/Banner.jpg');
+        padding: 40px 20px 80px 20px;
+    }
 }
 .header-img2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/services/service.jpg');
@@ -42,7 +48,7 @@ body{
   font-weight: bold;
   font-size: 30px;
   border: 3px solid #fff;
-  padding: 8px 40px;
+  padding: 8px 30px;
   margin-left:8%;
   cursor: pointer;
   letter-spacing: 1px;
@@ -51,6 +57,16 @@ body{
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
+}
+@media screen and (max-width: 600px){
+    .header-text a{
+        margin: 1%;
+        padding: 8px 15px;
+    }
+    .header-text a:hover {
+        color: #000;
+        background: #fff;
+    }
 }
 .header-text a:hover {
     color: #000;
@@ -80,7 +96,7 @@ body{
 }
 
 .sub-content{
-    width:65%;
+    width:45%;
     margin: auto;
 }
 
@@ -88,12 +104,25 @@ body{
 
 .aboutus{
     display: flex;
+    justify-content: space-around;
+}
+.aboutus .announce{
+    width:380px; 
+    margin:20px 8% 20px 12%;
 }
 
 @media screen and (max-width: 600px) {
     .aboutus{
         display: block;
         text-align: center;
+    }
+    .sub-content{
+        width:55%;
+        margin: auto;
+    }
+    .aboutus .announce{
+        width:320px; 
+        margin:20px 5% 20px 5%;
     }
 }
 
@@ -251,12 +280,23 @@ body{
 .card{
     padding: 20px;
     margin:10px;
-    box-shadow: 10px 10px 5px -6px rgba(156,152,152,0.64);
-    -webkit-box-shadow: 10px 10px 5px -6px rgba(156,152,152,0.64);
-    -moz-box-shadow: 10px 10px 5px -6px rgba(156,152,152,0.64);
+    box-shadow: 8px 8px 5px -6px rgba(156,152,152,0.64);
+    -webkit-box-shadow: 8px 8px 5px -6px rgba(156,152,152,0.64);
+    -moz-box-shadow: 8px 8px 5px -6px rgba(156,152,152,0.64);
     text-align: justify; 
     text-justify: inter-word;
+    border-bottom: 8px solid #031f4b;
+    border-radius: 15px;
+}
+.card:hover{
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.25);
+    border-bottom: 8px solid #031f4b;
 }
 .card-1{
     width: 500px;
+}
+.services-img{
+    padding: 4% 0 2% 3%;
 }
