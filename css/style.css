@@ -37,7 +37,7 @@ body{
 }
 .header-text{
     padding: 80px;
-    color:#fff;
+    color:#014479;
 }
 .header-text h1{
     margin-bottom: 10px;
@@ -246,7 +246,7 @@ body{
 /* pop up css ends */
 
 .footer{
-    background: #BDBDBD;
+    background: #f4f4f4;
 }
 
 
