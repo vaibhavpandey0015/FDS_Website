@@ -36,11 +36,11 @@ body{
   position: relative;
 }
 .header-text{
-    padding: 50px;;
+    padding: 80px;
     color:#fff;
 }
 .header-text h1{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .header-text a{
   text-decoration: none;
@@ -246,7 +246,7 @@ body{
 /* pop up css ends */
 
 .footer{
-    background: rgb(234, 232, 252);
+    background: #BDBDBD;
 }
 
 
@@ -277,7 +277,7 @@ body{
     box-shadow: 2px 1px 3px 2px rgba(0, 0, 0, 0.4);
 }
 
-.card{
+.card-1{
     padding: 20px;
     margin:10px;
     box-shadow: 8px 8px 5px -6px rgba(156,152,152,0.64);
@@ -288,15 +288,13 @@ body{
     border-bottom: 8px solid #031f4b;
     border-radius: 15px;
 }
-.card:hover{
+.card-1:hover{
     box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.25);
     -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.25);
     -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.25);
     border-bottom: 8px solid #031f4b;
 }
-.card-1{
-    width: 500px;
-}
+
 .services-img{
     padding: 4% 0 2% 3%;
 }
